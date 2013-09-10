@@ -4,3 +4,5 @@
 {"contributors":[],"silentsave":false,"ts":1378816377641,"patch":[[{"diffs":[[0,"ej! "],[-1,"Jag heter Anders"],[1,"Lite text."],[0,"</p>"]],"start1":81,"start2":81,"length1":24,"length2":18}]],"length":140,"saved":false}
 {"ts":1378819743384,"patch":[[{"diffs":[[0,"ej! "],[-1,"Lite"],[1,"Ännu lite mer"],[0," tex"]],"start1":81,"start2":81,"length1":12,"length2":21}]],"length":149,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1378834851529,"patch":[[{"diffs":[[0," <p>"],[-1,"Hej! Ännu lite mer tex"],[1,"Detta är ett svenskt tes"],[0,"t.</"]],"start1":76,"start2":76,"length1":30,"length2":32}]],"length":151,"saved":false}
+{"ts":1378835136897,"patch":[[{"diffs":[[0,"\n    <head>\n"],[1,"        <meta charset=\"sv\">\n"],[0,"        \n   "]],"start1":22,"start2":22,"length1":24,"length2":52}]],"length":179,"saved":false}
+{"ts":1378835255643,"patch":[[{"diffs":[[0,"et=\""],[-1,"sv\""],[1,"utf-8\">\n        <title>Min första sida</title"],[0,">\n  "]],"start1":53,"start2":53,"length1":11,"length2":53}]],"length":221,"saved":false}
