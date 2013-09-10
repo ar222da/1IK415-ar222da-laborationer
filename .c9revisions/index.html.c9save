@@ -7,3 +7,5 @@
 {"ts":1378835136897,"patch":[[{"diffs":[[0,"\n    <head>\n"],[1,"        <meta charset=\"sv\">\n"],[0,"        \n   "]],"start1":22,"start2":22,"length1":24,"length2":52}]],"length":179,"saved":false}
 {"ts":1378835255643,"patch":[[{"diffs":[[0,"et=\""],[-1,"sv\""],[1,"utf-8\">\n        <title>Min första sida</title"],[0,">\n  "]],"start1":53,"start2":53,"length1":11,"length2":53}]],"length":221,"saved":false}
 {"ts":1378840972192,"patch":[[{"diffs":[[0,"sta sida"],[1," har förändrats"],[0,"</title>"]],"start1":87,"start2":87,"length1":16,"length2":31}]],"length":236,"saved":false}
+{"ts":1378842178678,"patch":[[{"diffs":[[0,"a är ett"],[1," <a href=\"#\""],[0," svenskt"]],"start1":169,"start2":169,"length1":16,"length2":28},{"diffs":[[0,"svenskt "],[1,"</a>"],[0,"test.</p"]],"start1":190,"start2":190,"length1":16,"length2":20}]],"length":252,"saved":false}
+{"ts":1378842202687,"patch":[[{"diffs":[[0,"href=\"#\""],[1,">"],[0," svenskt"]],"start1":181,"start2":181,"length1":16,"length2":17}]],"length":253,"saved":false}
