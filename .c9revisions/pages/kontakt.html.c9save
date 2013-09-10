@@ -2,3 +2,4 @@
 {"contributors":[],"silentsave":false,"ts":1378631294129,"patch":[[{"diffs":[[1,"Test"]],"start1":0,"start2":0,"length1":0,"length2":4}]],"length":4,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1378681756923,"patch":[[{"diffs":[[1,"<h1>Rubrik</h1>\n<a href=\"#\">Länk</a>\n"],[0,"Test"],[1,"\n"]],"start1":0,"start2":0,"length1":4,"length2":42}]],"length":42,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1378739724028,"patch":[[{"diffs":[[0,"<"],[-1,"h1>Rubrik</h1>\n<a href=\"#\">Länk</a>\nTest\n"],[1,"!doctype html>\n<html lang=\"sv\">\n    <head>\n        <meta chartset=\"utf-8\" />\n        <title>En HTML5-sida</title>\n    </head>"]],"start1":0,"start2":0,"length1":42,"length2":126}]],"length":126,"saved":false}
+{"ts":1378739822057,"patch":[[{"diffs":[[0,"\n    </head>"],[1,"\n    \n    <body>\n        \n    </body>\n    \n</html>"]],"start1":114,"start2":114,"length1":12,"length2":62}]],"length":176,"saved":false}
