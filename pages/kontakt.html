@@ -6,11 +6,40 @@
     <title>Kontakt</title>
 </head>
     
-    <body>
-        <h1>Kontakt</h1>
-        <h2>Hej</h2>
-        <h2>Ännu mer</h2>
-
+<body>
+    <h1>Kontakt</h1>
+    
+    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+    <fieldset>
+        <legend>Meddelande</legend>
+        <p>Ärende: <select name="ärende" id="ärende">
+            <option value="fråga">Fråga</option>   
+            <option value="klagomål">Klagomål</option>   
+        </select>
+        </p>
+        
+        <p>Text: <textarea name="meddelande" id="meddelande" cols="25" rows="5"></textarea></p>
+        
+    </fieldset>
+    
+    <fieldset>
+        <legend>Kontaktuppgifter</legend>
+        <p>Namn: <input type="text" name="namn" id="namn"></p>
+        <p>Epost: <input type="text" name="epost" id="epost"></p>
+        <p>Telefon: <input type="text" name="telefon" id="telefon"></p>
+        
+        <p>Kontakta mig via mail: <input type="checkbox" name="viamail" id="viamail"> </p>
+        <p>Kontakta mig via telefon: <input type="checkbox" name="viatelefon" id="viatelefon"> </p>
+    </fieldset>
+    
+    <input type="submit" value="Skicka meddelande">
+    
+   
+       
+    </form>
+           
+       
+       
     
     <ul>
         <li><a href="../index.html">Start</a></li>
@@ -20,7 +49,7 @@
     </ul>
 
     
-    </body>
+</body>
     
     
 </html>
