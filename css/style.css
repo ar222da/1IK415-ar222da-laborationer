@@ -6,21 +6,36 @@
 }
 
 #top {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
+    height: 200px;
+  
+    background-color: #ffd572;
 }
 
 #navigation {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     width: 200px;
     float: left;
+    background-color: #f586ff;
 }
 
 #content {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     margin-left: 230px;
     width: 500px;
+    background-color: #e8b9ad;
 }
 
 #footer {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
+    background-color: #7fffb9;
 }
+
+/*  7FFFB9
+    C4E85C
+    FFD572
+    E8B9AD
+    F586FF
+    
+    
+    */
