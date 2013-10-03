@@ -11,29 +11,38 @@
     <div id="container">
         
         <div id="top">
-            <h1>Min fantastiska sida</h1>
+            <h1>Webbteknisk introduktion</h1>
         </div>
         
-        <div id="navigation">
-            <ul>
-            
-                <li><a href="index.html" class="active">Start</a></li>
-                <li><a href="pages/laborationer.html">Laborationer</a></li>    
-                <li><a href="pages/presentation">Presentation</a></li>
-                <li><a href="pages/kontakt">Kontakt</a></li>
-    
-            </ul>
-        </div>
+  <div id="navigation">
+        <ul class="länklista">
+            <li class="listelement"><a class="länkilistelementaktiv" href="index.html">Start</a></li>
+            <li class="listelement"><a class="länkilistelement" href="pages/laborationer.html">Laborationer</a></li>    
+            <li class="listelement"><a class="länkilistelement" href="pages/presentation.html">Presentation</a></li>
+            <li class="listelement"><a class="länkilistelement" href="pages/kontakt.html">Kontakt</a></li>
+
+        </ul>
+    </div>    
         
         <div id="content">
             <h2>Kursblogg</h2>
-            <h3>Hejsan världen!</h3>
-            <p>På denna blogg kommer jag att skriva några rader om de laborationer
-              jag gör och även publicera material som jag producerar.</p>
-            <h3 id="video">Video-taggen</h3>
-            <video width="320" height="180" src="videos/trailer_400p.ogg" controls></video>
-            <h3 id="vektorbild">Vektorbilden</h3>
-            <img src="pics/vektor.SVG" alt="Vektor">
+            
+            <div id="inlagg">
+                <div id="inlaggrubrik">
+                    <h3 id="video">Video-taggen</h3>
+                </div>
+                <video width="320" height="180" src="videos/trailer_400p.ogg" controls></video>
+                <p>Detta är ett exempel på hur man kan infoga en videofilm i ett dokument.</p>
+                <p id="inlaggavslut">Skrivet av Anders Robelius</p>
+            </div>
+            <div id="inlagg">
+                <div id="inlaggrubrik">
+                    <h3 id="vektorbild">Vektorbilden</h3>
+                </div>
+                <img src="pics/vektor.SVG" alt="Vektor">
+                <p>Detta är exempel på vektorgrafik, vilket är någonting jag aldrig hade använt mig av tidigare.</p>
+                <p id="inlaggavslut">Skrivet av Anders Robelius</p>
+            </div>
         </div>
         
         <div id="footer">
