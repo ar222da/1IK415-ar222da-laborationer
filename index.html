@@ -14,34 +14,60 @@
             <h1>Webbteknisk introduktion</h1>
         </div>
         
-  <div id="navigation">
-        <ul class="länklista">
-            <li class="listelement"><a class="länkilistelementaktiv" href="index.html">Start</a></li>
-            <li class="listelement"><a class="länkilistelement" href="pages/laborationer.html">Laborationer</a></li>    
-            <li class="listelement"><a class="länkilistelement" href="pages/presentation.html">Presentation</a></li>
-            <li class="listelement"><a class="länkilistelement" href="pages/kontakt.html">Kontakt</a></li>
-
-        </ul>
-    </div>    
-        
+        <div id="navigation">
+            <ul id="meny">
+                <li><a class="active" href="index.html">Start</a></li>
+                <li><a href="pages/laborationer.html">Laborationer</a></li>    
+                <li><a href="pages/presentation.html">Presentation</a></li>
+                <li><a href="pages/kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>    
+            
         <div id="content">
             <h2>Kursblogg</h2>
-            
-            <div id="inlagg">
-                <div id="inlaggrubrik">
-                    <h3 id="video">Video-taggen</h3>
-                </div>
-                <video width="320" height="180" src="videos/trailer_400p.ogg" controls></video>
-                <p>Detta är ett exempel på hur man kan infoga en videofilm i ett dokument.</p>
-                <p id="inlaggavslut">Skrivet av Anders Robelius</p>
+            <div class="inlagg">
+              
+                <h3 class="inlaggrubrik">Nytt blogginlägg</h3>
+                <img class="right" src="pics/rummet.jpg" alt="Rummet">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat, mi a tincidunt viverra, metus mauris placerat 
+                felis, sit amet feugiat felis libero a elit. Duis vel elit a lacus mattis iaculis sit amet in nulla. 
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                Phasellus at tellus bibendum, pretium sem non, scelerisque arcu. 
+                Etiam urna purus, molestie in lacus vitae, rhoncus sagittis nulla. 
+                Aliquam vel sapien hendrerit, sodales est a, ullamcorper mi.
+                Mauris egestas metus at aliquam ultrices. Cras lobortis magna eu hendrerit lacinia.
+                Curabitur et elit magna. Donec at mattis dolor. Pellentesque ut tellus quam. Phasellus vitae dignissim massa. 
+                </p>
+                <p>
+                Aenean nec ipsum eget ligula suscipit laoreet. Curabitur eu malesuada nisi. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat, mi a tincidunt viverra, metus mauris placerat 
+                felis, sit amet feugiat felis libero a elit. Duis vel elit a lacus mattis iaculis sit amet in nulla. 
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                Phasellus at tellus bibendum, pretium sem non, scelerisque arcu. 
+                Etiam urna purus, molestie in lacus vitae, rhoncus sagittis nulla. 
+                </p>
+                <p>
+                Aliquam vel sapien hendrerit, sodales est a, ullamcorper mi.
+                Mauris egestas metus at aliquam ultrices. Cras lobortis magna eu hendrerit lacinia.
+                Curabitur et elit magna. Donec at mattis dolor. Pellentesque ut tellus quam. Phasellus vitae dignissim massa. 
+                Aenean nec ipsum eget ligula suscipit laoreet. Curabitur eu malesuada nisi. 
+                </p>
+                <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-10-03</p>
             </div>
-            <div id="inlagg">
-                <div id="inlaggrubrik">
-                    <h3 id="vektorbild">Vektorbilden</h3>
-                </div>
+            
+            <div class="inlagg">
+                <h3 class="inlaggrubrik" id="video">Video-taggen</h3>
+                <video width="320" height="200" src="videos/trailer_400p.ogg" controls></video>
+                <p>Detta är ett exempel på hur man kan infoga en videofilm i ett dokument.</p>
+                <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-09-26</p>
+            </div>
+            
+            <div class="inlagg">
+                
+                <h3 class ="inlaggrubrik" id="vektorbild">Vektorbilden</h3>
                 <img src="pics/vektor.SVG" alt="Vektor">
                 <p>Detta är exempel på vektorgrafik, vilket är någonting jag aldrig hade använt mig av tidigare.</p>
-                <p id="inlaggavslut">Skrivet av Anders Robelius</p>
+                <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-09-20</p>
             </div>
         </div>
         

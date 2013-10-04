@@ -1,12 +1,9 @@
 /*
-
 #fff88c
 e8d77f
 ffe498
 e8c27f
 ffc78c
-    
-    
 */
 
 /*
@@ -17,14 +14,12 @@ DIV-avgränsningar
             background:#e8d77f;
             width: 960px;
             margin: 0 auto;
-        
         }
         
         #top {
             height: 100px;
             margin-bottom: 20px;
             background-color: #f0f38c;
-            /*text-align: left;*/
             padding-left: 230px;
             padding-top: 30px;
             background-image: url(../pics/logg.PNG);
@@ -40,7 +35,7 @@ DIV-avgränsningar
         #content {
             margin-left: 230px;
             width: 600px;
-            background-color: #e8c27f;
+            background-color: #f0f38c;
             padding: 10px;
         }
         
@@ -51,25 +46,21 @@ DIV-avgränsningar
             padding: 10px;
         }
         
-/*Länkar
+/*Klasser
+    Bilden i det nya blogginlägget hör till denna klass.
+
 */
+        .right { 
+                padding-left: 10px;
+                padding-top: 10px;
+                width: 250px;
+                height: 200px;
+                float: right;
+        }
 
-        a:link {
-            font-family: "georgia", "arial", "sans-serif"; color: black;
-            font-weight: bold;
-            text-decoration: none;
-                }
-        
-        a:visited {color: gray;}
-        a:focus {color: brown;}
-        a:hover {background-color: #f0f38c;}
-        .active {text-align: center; font-weight: bold;}
-
-
-
-/* Inlägg för index-sidan        
+/* Blogginlägg för index-sidan        
 */        
-        #inlagg {
+        .inlagg {
             padding-left: 10px;
             padding-right: 10px;          
             border-style: solid;
@@ -78,7 +69,7 @@ DIV-avgränsningar
             margin-bottom: 10px;
             }
             
-        #inlaggrubrik {
+        .inlaggrubrik {
             background-image: url(pics/Cr-ations-32.png);
             background-repeat: no-repeat;
             padding-left: 36px;
@@ -87,31 +78,48 @@ DIV-avgränsningar
             margin-bottom: 10px;
         }
         
-        #inlaggavslut {
+        .inlaggavslut {
             text-align: right;
             font-size: 0.7em;
             font-style: italic;
         }
 
-/*Osorterad lista, listelement och länkar inom listelement
-Detta gäller alltså bara för följande klasser. Andra osorterade listor och listelement 
-som inte hör till länkmenyn berörs inte av dessa egenskaper.
+
+
+
+/*Länkar
+*/
+        a:link {
+            font-family: "georgia", "arial", "sans-serif"; color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        a:visited {color: gray;}
+        a:focus {color: brown;}
+        a:hover {background-color: #f0f38c;}
+        .active {text-align: center; font-weight: bold;}
+
+
+/*
+Menyn som förekommer på varje sida har en egen id. Den osorterade listan som utgör menyn har alltså id= meny.
+De olika elementen inom detta id formatteras här (listelement, länk inom ett listelement samt aktiv länk inom ett listelement)
 
 */
-        .länklista {
+        #meny {
             border-bottom: none;
             width: 200px;
             margin: 0; 
             padding: 0;
         }
         
-        .listelement {
+        #meny li {
             border-bottom: 5px solid #e8d77f;
             list-style-type: none;
         }
         
         
-        .länkilistelement {
+        #meny li a {
             display: block;
             padding: 10px;
             text-decoration: none;
@@ -122,17 +130,16 @@ som inte hör till länkmenyn berörs inte av dessa egenskaper.
       
         }
         
-        .länkilistelementaktiv {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
+        #meny li a.active {
             font-weight: bold;
             text-align: center;
-            font-family: "helvetica", "arial", "sans-serif"; color: black;
-            font-size: 1em;
         }
 
-/*Rubriker och brödtext
+
+       
+        
+        
+/*Rubriker, brödtext och ordnad lista
 */
 
 
@@ -148,5 +155,15 @@ som inte hör till länkmenyn berörs inte av dessa egenskaper.
             text-align: justify;
         }
         
-
+        ol {
+            font-family: "georgia", "arial", "sans-serif"; 
+            font-size: 0.8em;
+            
+            line-height: 150%;
+            color: black;
+            text-align: justify;
+            
+        }
+        
+        
 

@@ -14,14 +14,16 @@
         <h1>Min laborationsportal</h1>
 
     </div> 
-    <div id="navigation">
         
-            <li class="listelement"><a class="länkilistelement" href="../index.html">Start</a></li>
-            <li class="listelement"><a class="länkilistelementaktiv" href="laborationer.html">Laborationer</a></li>    
-            <li class="listelement"><a class="länkilistelement" href="presentation.html">Presentation</a></li>
-            <li class="listelement"><a class="länkilistelement" href="kontakt.html">Kontakt</a></li>
-
-    </div>
+        <div id="navigation">
+            <ul id="meny">
+                <li><a href="../index.html">Start</a></li>
+                <li><a class="active" href="pages/laborationer.html">Laborationer</a></li>    
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>    
+        
     
     <div id="content"> 
         <h2>Webbteknisk introduktion</h2>
@@ -30,7 +32,8 @@
         <li><a href="#laboration1">Laboration 1</a></li>
         <li><a href="#laboration2">Laboration 2</a></li>
         </ul>
-        
+    
+        <div id="tabell">
         <table border="1">
         <thead>
             <tr>
@@ -52,99 +55,111 @@
                     <td rowspan="9">1</td>
                     <td>1</td>
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>2</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                     
                 <tr>
                     <td>3</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>4</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>5</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>6</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>7</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>8</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>9</td>    
                     <td>Färdig</td>
-                    <td>-</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
-                    <td rowspan="6">2</td>
+                    <td rowspan="8">2</td>
                     <td>1</td>
-                    <td>Ej påbörjad</td>
-                    <td>-</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>2</td>
-                    <td>Ej påbörjad</td>
-                    <td>-</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>3</td>
-                    <td>Ej påbörjad</td>
-                    <td>-</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>4</td>
-                    <td>Ej påbörjad</td>
-                    <td>-</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>5</td>
-                    <td>Ej påbörjad</td>
-                    <td>-</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
                 </tr>
                 
                 <tr>
                     <td>6</td>
-                    <td>Ej påbörjad</td>
-                    <td>-</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
+                </tr>
+                
+                <tr>
+                    <td>7</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
+                </tr>
+                
+                <tr>
+                    <td>8</td>
+                    <td>Färdig</td>
+                    <td>Ja</td>
                 </tr>
                 
             </tbody>
         </table>
+        </div>
     
-    
-    
+        <div id="laborationstext">
         <h3 id="laboration1">Laboration 1</h3>
         <p>Uppgifter:</p>
         
@@ -160,8 +175,8 @@
                     <dt>Absoluta sökvägen till filen bottom.html:</dt>
                     <dd>http://www.server.se/html/pages/bottom.html</dd>
             
-                     <dt>Relativa sökvägen från filen default.html till filen top.html:</dt>
-                    <dd>/pages/top.html</dd>
+                    <dt>Relativa sökvägen från filen default.html till filen top.html:</dt>
+                    <dd>pages/top.html</dd>
                 
                     <dt>Relativa sökvägen från filen bottom.html till filen index.html:</dt>
                     <dd>../../index.html</dd>
@@ -213,7 +228,7 @@
             
         </ol>
        
-        
+        </div>
        
         
         <h3 id="laboration2">Laboration 2</h3>
