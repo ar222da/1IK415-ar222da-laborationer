@@ -10,6 +10,9 @@ ffc78c
 DIV-avgränsningar
 */
 
+
+
+
         #container {
             background:#e8d77f;
             width: 960px;
@@ -97,9 +100,10 @@ DIV-avgränsningar
         
         a:visited {color: gray;}
         a:focus {color: brown;}
-        a:hover {background-color: #f0f38c;}
-        .active {text-align: center; font-weight: bold;}
-
+        /*a:hover {background-color: #f0f38c;}
+        */
+        /*.active {text-align: center; font-weight: bold;}
+*/
 
 /*
 Menyn som förekommer på varje sida har en egen id. Den osorterade listan som utgör menyn har alltså id= meny.
@@ -107,32 +111,100 @@ De olika elementen inom detta id formatteras här (listelement, länk inom ett l
 
 */
         #meny {
-            border-bottom: none;
+            list-style-type: none;
             width: 200px;
             margin: 0; 
             padding: 0;
         }
         
-        #meny li {
-            border-bottom: 5px solid #e8d77f;
-            list-style-type: none;
-        }
         
         
         #meny li a {
             display: block;
-            padding: 10px;
+            height: 25px;
+            border-bottom: 5px solid #e8d77f;
+            list-style-type: none;
+            padding-left: 34px;
             text-decoration: none;
             font-weight: normal;
             text-align: left;
-            font-family: "helvetica", "arial", "sans-serif"; color: black;
+            font-family: "verdana", "arial", "sans-serif"; color: black;
             font-size: 1em;
-      
+          }
+        
+        
+    
+        
+        
+        #start {
+            padding-left: 5px;
+            background: url(pics/sprite.png) 0 -48px;
+            background-repeat: no-repeat;
+            border-bottom: 5px solid #e8d77f;
+            list-style-type: none;
         }
+        
+        #start:hover {
+            
+            background: url(pics/sprite.png) 0 0px;
+            background-repeat: no-repeat;
+            
+        }
+        
+        #laborationer {
+            padding-left: 5px;
+            background: url(pics/sprite.png) 0 -144px;
+            background-repeat: no-repeat;
+            border-bottom: 5px solid #e8d77f;
+            list-style-type: none;
+        }
+        
+        #laborationer:hover {
+            background: url(pics/sprite.png) 0 -96px;
+            background-repeat: no-repeat;
+            
+        }
+        
+        #presentation {
+            padding-left: 5px;
+            background: url(pics/sprite.png) 0 -240px;
+            background-repeat: no-repeat;
+            border-bottom: 5px solid #e8d77f;
+            list-style-type: none;
+        }
+        
+        #presentation:hover {
+            background: url(pics/sprite.png) 0 -192px;
+            background-repeat: no-repeat;
+            
+        }
+        
+        #kontakt {
+            padding-left: 5px;
+            background: url(pics/sprite.png) 0 -336px;
+            background-repeat: no-repeat;
+            border-bottom: 5px solid #e8d77f;
+            list-style-type: none;
+            
+        }
+        
+        #kontakt:hover {
+            background: url(pics/sprite.png) 0 -288px;
+            background-repeat: no-repeat;
+            
+        }
+        
+        
+        
         
         #meny li a.active {
             font-weight: bold;
             text-align: center;
+        }
+        
+        #meny li a:hover {
+            background-color: #f0f38c;
+            
         }
 
 
@@ -166,4 +238,5 @@ De olika elementen inom detta id formatteras här (listelement, länk inom ett l
         }
         
         
+
 
