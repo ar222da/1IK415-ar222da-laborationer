@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-family: verdana;
+}
+
 a:after {
  
     content: " ["attr(href)"]";
