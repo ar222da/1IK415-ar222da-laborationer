@@ -1,13 +1,210 @@
-/*
-#fff88c
-e8d77f
-ffe498
-e8c27f
-ffc78c
+                                    /*Nollställning*/
+                                    
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/*ol, ul {
+	list-style: none;
+}*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+
+/*                                  HTML-5
+*/
+
+header
+{
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #f0f38c;
+    padding-left: 230px;
+    padding-top: 30px;
+    background-image: url(../pics/logg.PNG);
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:481px)
+{
+    header
+    {
+        background-image: url(../pics/logga2.PNG);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 50px;
+        margin-bottom: 10px;
+        font-size: 0.7em;
+        padding-left: 0;
+        padding-top:110px;
+        padding-bottom:0;
+    
+    }
+}
+
+nav
+{
+    width: 200px;
+    float: left;
+    background-color: #e8c27f;
+}
+        
+@media only screen and (max-width:481px)
+{
+    nav 
+    {
+        width: 300px;
+        margin-bottom: 10px;
+        background-image: none;
+        padding-left:0;
+    }
+}
+
+
+main
+{
+    margin-left: 230px;
+    width: 600px;
+    background-color: #f0f38c;
+    padding: 10px;
+}
+        
+@media only screen and (max-width:481px)
+{
+    main 
+    {
+        
+        width: 300px;
+        clear: both;
+        margin-left:0;
+        margin-bottom: 10px;
+        background-image: none;
+        padding:0;
+    }
+}
+
+footer
+{
+    height: 50px;
+    margin-top: 100px;
+    background-color: #f0f38c;
+    padding: 10px;
+    font-size: 0.7em;
+    font-style: italic;
+
+}
+
+
+article
+{
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;          
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+/* Blogginlägg för index-sidan        
+*/        
+        .inlagg {
+            padding-top:5px;
+            padding-left: 10px;
+            padding-right: 10px;          
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            margin-bottom: 10px;
+            
+            }
+            
+        .inlaggrubrik {
+            background-image: url(pics/Cr-ations-32.png);
+            background-repeat: no-repeat;
+            padding-left: 36px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid;
+            margin-bottom: 10px;
+            padding-top:5px;
+        }
+        
+       
+        .inlaggavslut {
+            font-size: 0.7em;
+            font-style: italic;
+            text-align: right;
+        }
+
+        .kommentarer {
+            border-top: 1px solid;
+            margin-top:20px;
+            padding-top:10px;
+            font-size: 1.0em;
+            font-style:italic;
+        }
+        
+        .kommentar {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .kommentator
+        {
+            font-weight:bold; 
+        }
+        
+        .kommentarinlagg
+        {
+            
+        }
+
+
+
+
 /*
-DIV-avgränsningar
+                                    Gemensamt för alla sidor
+                        container, top, navigation, content och footer
 */
 
 
@@ -112,6 +309,8 @@ DIV-avgränsningar
             margin-top: 100px;
             background-color: #f0f38c;
             padding: 10px;
+            font-size: 0.7em;
+            font-style: italic;
         }
         
         @media only screen and (max-width: 481px)
@@ -125,11 +324,11 @@ DIV-avgränsningar
             }
         }
         
-/*Klasser
-    Bilden i det nya blogginlägget hör till denna klass.
 
+
+/*                              Unikt för index-sidan
 */
-        .right { 
+        .right { /*bild för blogginlägget*/ 
                 padding-left: 10px;
                 padding-top: 10px;
                 width: 250px;
@@ -148,36 +347,10 @@ DIV-avgränsningar
         
         }
 
-/* Blogginlägg för index-sidan        
-*/        
-        .inlagg {
-            padding-left: 10px;
-            padding-right: 10px;          
-            border-style: solid;
-            border-width: 1px;
-            border-color: black;
-            margin-bottom: 10px;
-            }
-            
-        .inlaggrubrik {
-            background-image: url(pics/Cr-ations-32.png);
-            background-repeat: no-repeat;
-            padding-left: 36px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid;
-            margin-bottom: 10px;
-        }
-        
-        .inlaggavslut {
-            text-align: right;
-            font-size: 0.7em;
-            font-style: italic;
-        }
 
 
 
-
-/*Länkar
+/*                                  Allmäna länkar
 */
         a:link {
             font-family: "georgia", "arial", "sans-serif"; color: black;
@@ -187,13 +360,15 @@ DIV-avgränsningar
         
         a:visited {color: gray;}
         a:focus {color: brown;}
-        /*a:hover {background-color: #f0f38c;}
-        */
-        /*.active {text-align: center; font-weight: bold;}
-*/
 
+
+
+
+/*                                  Menyn
+*/
 /*
-Menyn som förekommer på varje sida har en egen id. Den osorterade listan som utgör menyn har alltså id= meny.
+Menyn som förekommer på varje sida har en egen id. Den osorterade listan som utgör menyn har alltså 
+id= meny.
 De olika elementen inom detta id formatteras här (listelement, länk inom ett listelement samt aktiv länk inom ett listelement)
 
 */
@@ -312,6 +487,45 @@ De olika elementen inom detta id formatteras här (listelement, länk inom ett l
         }
 
 
+
+/*                          Tabeller
+*/
+
+
+table, th, td
+{
+    border: 1px solid black;
+}
+
+
+
+/*                      Text för kontaktsidan
+*/
+
+.formular
+{
+    /*border: 1px solid;*/
+    padding: 10px;
+}
+
+.formulardel1
+{
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.formulardel2
+{
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.textformular
+{
+    width: 50px;
+}
        
         
         
@@ -319,9 +533,33 @@ De olika elementen inom detta id formatteras här (listelement, länk inom ett l
 */
 
 
-        h1 {font-family: "georgia", "arial", "sans-serif"; font-size: 1.8em; color: silver;}
-        h2 {font-family: "georgia", "arial", "sans-serif"; font-size: 1.4em; color: black;}
-        h3 {font-family: "georgia", "arial", "sans-serif"; font-size: 1.2em; color: black; margin-bottom: 0;}
+        h1 {
+            font-family: "georgia", "arial", "sans-serif"; font-size: 1.8em; color: silver;
+            margin-top:10px;
+            margin-bottom:10px;
+            font-weight:bold;
+        }
+        
+        h2 {
+            font-family: "georgia", "arial", "sans-serif"; font-size: 1.4em; color: black;
+            margin-top:5px;
+            margin-bottom:5px;
+            font-weight:bold;
+        }
+        
+        h3 {
+            font-family: "georgia", "arial", "sans-serif"; font-size: 1.2em; color: black; 
+            margin-bottom: 5px;
+            font-weight:bold;
+        }
+        
+        h4 {
+            font-family: "georgia", "arial", "sans-serif"; font-size: 1.0em; color: black; 
+            margin-bottom: 5px;
+            margin-top: 7px;
+            font-weight:bold;
+        }
+        
         
         p {
             font-family: "georgia", "arial", "sans-serif"; 
@@ -334,18 +572,37 @@ De olika elementen inom detta id formatteras här (listelement, länk inom ett l
         ol {
             font-family: "georgia", "arial", "sans-serif"; 
             font-size: 0.8em;
-            
             line-height: 150%;
             color: black;
             text-align: justify;
-            
+            padding:10px;
         }
+        
+        ul
+        {
+            padding: 30px;
+        }
+        
+        dl
+        {
+            padding: 20px;
+        }
+        dd
+        {
+            padding: 20px;
+        }
+        
         
 @media only screen and (max-width:481px)
 {
     ol
     {
       
+        padding: 30px;
+    }
+    
+    ul
+    {
         padding: 30px;
     }
     
@@ -364,7 +621,7 @@ De olika elementen inom detta id formatteras här (listelement, länk inom ett l
 {
     .video
     {
-        width: 285px;
+        width: 280px;
     
     }
     

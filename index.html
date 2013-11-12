@@ -15,70 +15,199 @@
     <body>
     <div id="container">
         
-        <div id="top">
+        <header>
             <h1>Webbteknisk introduktion</h1>
-        </div>
+        </header>
         
-        <div id="navigation">
+        <nav>
             <ul id="meny">
                 <li><a id="start" class="active" href="index.html">Start</a></li>
                 <li><a id="laborationer" href="pages/laborationer.html">Laborationer</a></li>    
                 <li><a id="presentation" href="pages/presentation.html">Presentation</a></li>
                 <li><a id="kontakt" href="pages/kontakt.html">Kontakt</a></li>
             </ul>
-        </div>    
-            
-        <div id="content">
+        </nav>
+
+        <main>
             <h2>Kursblogg</h2>
-            <div class="inlagg">
+            <!--<div class="inlagg">-->
+
+
+            <article class="inlagg">
               
-                <h3 class="inlaggrubrik">Nytt blogginlägg</h3>
-                <img class="right" src="pics/rummet.jpg" alt="Rummet">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat, mi a tincidunt viverra, metus mauris placerat 
-                felis, sit amet feugiat felis libero a elit. Duis vel elit a lacus mattis iaculis sit amet in nulla. 
-                Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                Phasellus at tellus bibendum, pretium sem non, scelerisque arcu. 
-                Etiam urna purus, molestie in lacus vitae, rhoncus sagittis nulla. 
-                Aliquam vel sapien hendrerit, sodales est a, ullamcorper mi.
-                Mauris egestas metus at aliquam ultrices. Cras lobortis magna eu hendrerit lacinia.
-                Curabitur et elit magna. Donec at mattis dolor. Pellentesque ut tellus quam. Phasellus vitae dignissim massa. 
-                </p>
-                <p>
-                Aenean nec ipsum eget ligula suscipit laoreet. Curabitur eu malesuada nisi. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat, mi a tincidunt viverra, metus mauris placerat 
-                felis, sit amet feugiat felis libero a elit. Duis vel elit a lacus mattis iaculis sit amet in nulla. 
-                Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                Phasellus at tellus bibendum, pretium sem non, scelerisque arcu. 
-                Etiam urna purus, molestie in lacus vitae, rhoncus sagittis nulla. 
-                </p>
-                <p>
-                Aliquam vel sapien hendrerit, sodales est a, ullamcorper mi.
-                Mauris egestas metus at aliquam ultrices. Cras lobortis magna eu hendrerit lacinia.
-                Curabitur et elit magna. Donec at mattis dolor. Pellentesque ut tellus quam. Phasellus vitae dignissim massa. 
-                Aenean nec ipsum eget ligula suscipit laoreet. Curabitur eu malesuada nisi. 
-                </p>
-                <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-10-03</p>
-            </div>
-            
-            <div class="inlagg">
-                <h3 class="inlaggrubrik" id="video">Video-taggen</h3>
-                <video class="video" width="320" height="200" src="videos/trailer_400p.ogg" controls></video>
-                <p>Detta är ett exempel på hur man kan infoga en videofilm i ett dokument.</p>
-                <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-09-26</p>
-            </div>
-            
-            <div class="inlagg">
+                <section class="inlaggrubrik">
+                    <h3>Nytt blogginlägg</h3>
+                </section>
                 
-                <h3 class="inlaggrubrik" id="vektorbild">Vektorbilden</h3>
-                <img class="vektorbild" src="pics/vektor.SVG" alt="Vektor">
-                <p>Detta är exempel på vektorgrafik, vilket är någonting jag aldrig hade använt mig av tidigare.</p>
-                <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-09-20</p>
-            </div>
-        </div>
+                <section>
+                    <img class="right" src="pics/rummet.jpg" alt="Rummet">
+                </section>
+                
+                <section class="textavsnitt">
+                    <h4>Rubrik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat, mi a tincidunt viverra, metus mauris placerat 
+                    felis, sit amet feugiat felis libero a elit. Duis vel elit a lacus mattis iaculis sit amet in nulla. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                    Phasellus at tellus bibendum, pretium sem non, scelerisque arcu. 
+                    Etiam urna purus, molestie in lacus vitae, rhoncus sagittis nulla. 
+                    Aliquam vel sapien hendrerit, sodales est a, ullamcorper mi.
+                    Mauris egestas metus at aliquam ultrices. Cras lobortis magna eu hendrerit lacinia.
+                    Curabitur et elit magna. Donec at mattis dolor. Pellentesque ut tellus quam. Phasellus vitae dignissim massa. 
+                    </p>
+                </section>
+                
+                <section class="textavsnitt">
+                    <h4>Rubrik</h4>
+                    <p>
+                    Aenean nec ipsum eget ligula suscipit laoreet. Curabitur eu malesuada nisi. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat, mi a tincidunt viverra, metus mauris placerat 
+                    felis, sit amet feugiat felis libero a elit. Duis vel elit a lacus mattis iaculis sit amet in nulla. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                    Phasellus at tellus bibendum, pretium sem non, scelerisque arcu. 
+                    Etiam urna purus, molestie in lacus vitae, rhoncus sagittis nulla. 
+                    </p>
+                </section>
+                
+                <section class="textavsnitt">
+                    <h4>Rubrik</h4>
+                    <p>
+                    Aliquam vel sapien hendrerit, sodales est a, ullamcorper mi.
+                    Mauris egestas metus at aliquam ultrices. Cras lobortis magna eu hendrerit lacinia.
+                    Curabitur et elit magna. Donec at mattis dolor. Pellentesque ut tellus quam. Phasellus vitae dignissim massa. 
+                    Aenean nec ipsum eget ligula suscipit laoreet. Curabitur eu malesuada nisi. 
+                    </p>
+                </section>
+                
+                <section>
+                    <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-10-03</p>
+                </section>
+                
+            <!--</div>-->
+            
+                <section class="kommentarer">
+                    <h3>Kommentarer:</h3>
+                    
+                    <section class="kommentar">
+                    <p class="kommentator">Pelle Pettersson:</p>
+                    <p>Bra inlägg! Håller med helt och hållet.</p>
+                    <time>2013-10-13</time>
+                    </section>
+                    
+                    <section class="kommentar">
+                    <p class="kommentator">Gunilla Frej:</p>
+                    <p>Jag förstår verkligen inte hur du kan skriva så dåligt.
+                        Har du helt tappat förståndet? Du verkar ju inte 
+                        riktigt klok.
+                    </p>
+                    <time>2013-10-07</time>
+                    </section>
+                    
+                    <section class="kommentar">
+                    <p class="kommentator">Abraham Gustavsson:</p>
+                    <p>Njae, jag håller inte med helt och hållet.
+                        Till viss del har du rätt men också fel.
+                    </p>
+                    <time>2013-10-04</time>
+                    </section>
+                    
+                </section>
+                
+            </article>
+            
+            
+            
+            
+            <article class="inlagg">
+                <section>
+                    <h3 class="inlaggrubrik" id="video">Video-taggen</h3>
+                </section>
+                
+                <section>
+                    <video class="video" width="320" height="200" src="videos/trailer_400p.ogg" controls></video>
+                </section>
+                
+                <section>
+                    <p>Detta är ett exempel på hur man kan infoga en videofilm i ett dokument.</p>
+                    <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-09-26</p>
+                </section>
+                
+                <section class="kommentarer">
+                    
+                    <h3>Kommentarer:</h3>
+                    <section class="kommentar">
+                        <p class="kommentator">Abraham Gustavsson:</p>
+                        <p>Var det allt? Det var verkligen inte mycket att komma med!
+                        </p>
+                        <time>2013-10-01</time>
+                    </section>
+                
+                    <section class="kommentar">
+                        <p class="kommentator">Erik Eriksson:</p>
+                        <p>Det märks verkligen att du behärskar HTML-5 till fullo!
+                        </p>
+                        <time>2013-10-01</time>
+                    </section>
+            
+                </section>
+
+            </article>
+
+
+
+            
+            <article>
+            
+                <section>
+                    <h3 class="inlaggrubrik" id="vektorbild">Vektorbilden</h3>
+                </section>
+                
+                <section>
+                    <img class="vektorbild" src="pics/vektor.SVG" alt="Vektor">
+                </section>
+                
+                <section>
+                    <p>Detta är exempel på vektorgrafik, vilket är någonting jag aldrig hade använt mig av tidigare.</p>
+                    <p class="inlaggavslut">Skrivet av Anders Robelius, 2013-09-20</p>
+                </section>
+                
+                <section class="kommentarer">
+                    
+                    <h3>Kommentarer:</h3>
+                    <section class="kommentar">
+                        <p class="kommentator">Otto Olsson:</p>
+                        <p>Din vektorbild är ju faktiskt riktigt snygg.
+                        </p>
+                        <time>2013-10-01</time>
+                    </section>
+                
+                    <section class="kommentar">
+                        <p class="kommentator">Erik Eriksson:</p>
+                        <p>Vektorgrafik är fina grejer!
+                        </p>
+                        <time>2013-10-01</time>
+                    </section>
+                    
+                    <section class="kommentar">
+                        <p class="kommentator">Anna von Gers:</p>
+                        <p>Vektorgrafik ger nya möjligheter! Det är framtiden.
+                        </p>
+                        <time>2013-10-01</time>
+                    </section>
+            
+            
+                </section>
+            
+                
+                
+            </article>
         
-        <div id="footer">
+            
+            
+        </main>
+        
+        <footer>
             <p>Ansvarig för materialet på denna sida är Anders Robelius.</p>
-        </div>        
+        </footer>        
         
     </div>    
     </body>

@@ -2,3 +2,16 @@
         font-family: helvetica;
         font-size: 1px;
     }
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: verdana;
+}
+
+a:after {
+ 
+    content: " ["attr(href)"]";
+    
+}
